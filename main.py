@@ -2,7 +2,7 @@ from pessoaFisica import PessoaFisica
 from pessoaJuridica import PessoaJuridica
 from cursos import Curso
 from aluno import Aluno
-from inscrição import Inscricao
+from inscricao import Inscricao
 
 def main():
     pessoaFisica1 = PessoaFisica("Eduardo", "51999999999", "Rua X", "1999", "12345678")
