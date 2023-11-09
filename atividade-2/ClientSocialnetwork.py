@@ -1,8 +1,8 @@
 class ClientSocialnetwork:
     
-    def _init_(self, client, socialnetwork):
+    def __init__(self, client, socialnetwork):
         self.client = client
         self.socialnetwork = socialnetwork
 
-    def _str_(self):
+    def __str__(self):
             return f"Cliente: {self.client}, Rede Social: {self.socialnetwork}\n"
