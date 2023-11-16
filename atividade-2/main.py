@@ -4,7 +4,7 @@ from client import Client
 from order import Order
 from orderItem import OrderItem
 from socialNetwork import Socialnetwork
-from ClientSocialnetwork import ClientSocialnetwork
+from clientSocialnetwork import ClientSocialnetwork
 
 def main():
 
