@@ -4,3 +4,4 @@ class Inscricao:
         self.data_matricula = data_matricula
         self.curso = cursos
         self.aluno_matriculado = aluno_matriculado
+        self.contratante = contratante
