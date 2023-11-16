@@ -1,9 +1,6 @@
-class Aluno:
-    def __init__(self, pessoa, cadastro, email):
-        self.pessoa = pessoa
-        self.cadastro = cadastro
-        self.email = email
+from pessoaFisica import PessoaFisica
 
-    def __str__(self):
-        return f"Aluno: {self.pessoa}, cadastro: {self.cadastro}, Email: {self.email}"
-    pass
+class Aluno(PessoaFisica):
+    def __init__(self, nome, telefone, endereço, data_nascimento, cpf, numero_matricula):
+         super().__init__(nome, telefone, endereço, data_nascimento, cpf)
+         self.numero_matricula = numero_matricula
