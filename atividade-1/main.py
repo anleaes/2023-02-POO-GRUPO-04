@@ -1,7 +1,7 @@
 from pessoaJuridica import PessoaJuridica
 from cursos import Curso
 from aluno import Aluno
-from inscricao import Inscricao
+from Inscricao import Inscricao
 
 def main():
     
