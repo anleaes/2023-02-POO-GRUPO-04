@@ -3,4 +3,4 @@ class Pessoa:
         self.nome = nome
         self.telefone = telefone
         self.endereço = endereço
-        pass
+        
