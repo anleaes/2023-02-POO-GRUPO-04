@@ -7,5 +7,10 @@ class ProfissionalSaude(models.Model):
     especialidade = models.CharField(max_length=100)
     registro = models.CharField(max_length=50)
 
+    class Meta:
+        verbose_name = 'ProfissionalSaude'
+        verbose_name_plural = 'ProfissionaisSaude'
+        ordering =['id']
+
     def __str__(self):
         return self.nome
