@@ -11,6 +11,6 @@ class Vacina(models.Model):
         verbose_name = 'Vacina'
         verbose_name_plural = 'Vacinas'
         ordering =['id']
-         
+
     def str(self):
         return self.nome
