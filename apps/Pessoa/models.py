@@ -4,8 +4,8 @@ from django.db import models
 
 class Pessoa(models.Model):
     nome = models.CharField(max_length=100)
-    fabricante = models.CharField(max_length=100)
-    dose = models.IntegerField()
+    idade = models.IntegerField()
+    cpf = models.CharField(max_length=14, unique=True)
 
     class Meta:
         verbose_name = 'Pessoa'
