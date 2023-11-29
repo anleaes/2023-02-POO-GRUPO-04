@@ -6,3 +6,5 @@ modeloapp/__pycache__/*
 /apps/profissionalSaude/migrations/*
 /apps/vacinas/__pycache__/*
 /apps/vacinas/migrations/*
+/apps/registroVacina/__pycache__/*
+/apps/registroVacina/migrations/*
