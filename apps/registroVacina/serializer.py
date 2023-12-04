@@ -4,4 +4,4 @@ from rest_framework import serializers
 class RegistroVacinaçãoSerializer(serializers.ModelSerializer):
     class Meta:
         model = RegistroVacinação
-        fields = 'all'
+        fields = '__all__'
