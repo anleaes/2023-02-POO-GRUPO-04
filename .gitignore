@@ -1,7 +1,7 @@
 db.sqlite3
 modeloapp/__pycache__/*
-/apps/Pessoa/__pycache__/*
-/apps/Pessoa/migrations/*
+/apps/pessoa/__pycache__/*
+/apps/pessoa/migrations/*
 /apps/profissionalSaude/__pycache__/*
 /apps/profissionalSaude/migrations/*
 /apps/vacinas/__pycache__/*
