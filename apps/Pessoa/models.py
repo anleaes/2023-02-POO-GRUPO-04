@@ -12,5 +12,5 @@ class Pessoa(models.Model):
         verbose_name_plural = 'Pessoas'
         ordering =['id']
 
-    def str(self):
+    def __str__(self):
         return self.nome
