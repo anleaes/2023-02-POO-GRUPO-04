@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'pessoa.apps.PessoaConfig',
+    'Pessoa.apps.PessoaConfig',
     'profissionalSaude.apps.ProfissionalsaudeConfig',
     'vacinas.apps.VacinasConfig',
     'registroVacina.apps.RegistrovacinaConfig',

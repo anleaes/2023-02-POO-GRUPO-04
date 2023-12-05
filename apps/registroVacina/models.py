@@ -1,6 +1,6 @@
 from django.db import models
 from vacinas.models import Vacina
-from pessoa.models import Pessoa
+from Pessoa.models import Pessoa
 
 #Create your models here.
 class RegistroVacinação(models.Model):
