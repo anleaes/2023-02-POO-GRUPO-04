@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'profissionalSaude.apps.ProfissionalsaudeConfig',
     'vacinas.apps.VacinasConfig',
     'registroVacina.apps.RegistrovacinaConfig',
+    'agendamento.apps.AgendamentoConfig',
 ]
 
 MIDDLEWARE = [
