@@ -10,3 +10,5 @@ modeloapp/__pycache__/*
 /apps/registroVacina/migrations/*
 /apps/agendamento/__pycache__/*
 /apps/agendamento/migrations/*
+/apps/localVacinacao/__pycache__/*
+/apps/localVacinacao/migrations/*

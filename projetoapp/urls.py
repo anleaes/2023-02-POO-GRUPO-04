@@ -22,5 +22,6 @@ urlpatterns = [
     path('profissionalSaude/', include('profissionalSaude.urls', namespace='profissionalSaude')), 
     path('vacinas/', include('vacinas.urls', namespace='vacinas')), 
     path('registroVacinas/', include('registroVacina.urls', namespace='registroVacina')),
-    path('agendamento/', include('agendamento.urls', namespace='registroVacina')),
+    path('agendamento/', include('agendamento.urls', namespace='Agendamento')),
+    path('localVacinacao/', include('localVacinacao.urls', namespace='LocalVacinacao')),
 ]
