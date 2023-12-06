@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'registroVacina.apps.RegistrovacinaConfig',
     'agendamento.apps.AgendamentoConfig',
     'localVacinacao.apps.LocalvacinacaoConfig',
+    'estoqueVacinas.apps.EstoquevacinasConfig',
 ]
 
 MIDDLEWARE = [
