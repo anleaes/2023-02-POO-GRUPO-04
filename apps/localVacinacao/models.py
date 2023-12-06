@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class LocalVacinaçao(models.Model):
+class LocalVacinacao(models.Model):
     nome = models.CharField(max_length=100)
     endereco = models.TextField()
     capacidade = models.IntegerField()
