@@ -5,6 +5,6 @@ from .models import EstoqueVacinas
 from rest_framework import viewsets
 from .serializer import EstoqueVacinasSerializer
 
-class VacinaViewSet(viewsets.ModelViewSet):
+class EstoqueVacinasViewSet(viewsets.ModelViewSet):
     queryset = EstoqueVacinas.objects.all()
     serializer_class = EstoqueVacinasSerializer

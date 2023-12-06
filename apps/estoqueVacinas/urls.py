@@ -8,5 +8,4 @@ router = routers.DefaultRouter()
 router.register('', views.EstoqueVacinasViewSet, basename='EstoqueVacinas')
 
 urlpatterns = [
-    path('', include(router.urls) )
-]
+    path('', include(router.urls) )]

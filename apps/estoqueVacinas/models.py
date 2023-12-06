@@ -1,4 +1,5 @@
 from django.db import models
+from vacinas.models import Vacina
 
 # Create your models here.
 class EstoqueVacinas(models.Model):
@@ -6,5 +7,5 @@ class EstoqueVacinas(models.Model):
     quantidade = models.IntegerField()
     data_validade = models.DateField()
 
-def str(self):
-    return self.quantidade
+def __str__(self):
+    return self.vacina
